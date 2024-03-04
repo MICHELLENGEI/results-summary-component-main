@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.mainContainer {
+    margin: 8vh 25vw;
+    display: grid;
+    grid-template-rows: 512px;
+    grid-template-columns: 368px 368px;
+}
+
+.left {
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(241, 81%, 54%);
+}
+
+.headingResults {
+    text-align: center;
+    margin: 40px 0;
+    color: #9d8df9;
+}
+
+.circle {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 196px;
+    width: 196px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom,hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+
+}
+
+.number76 {
+    font-size: 64px;
+    color: #fff;
+}
+
+.number100 {
+    color: rgb(138, 124, 255);
+}
+
+.great {
+    font-size: 40px;
+    margin: 25px 0;
+    font-weight: 600;
+    color: #fdfcff;
+}
+
+.bottom {
+    text-align: center;
+    font-size: 18px;
+    color: #a29dff;
+}
+
+.right {
+    border-radius: 16px;
+    box-shadow: 2px 2px 2px #0000003b;
+
+}
+
+.topheading {
+    margin-top: 42px;
+    margin-left: 42px;
+    margin-bottom: 30px;
+    text-align: left;
+    color: #303b59;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+button {
+    margin: 10px 42px;
+    height: 55px;
+    width: 288px;
+    border-radius: 16px;
+    border: none;
+}
+
+.btnContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 24px;
+}
+
+.name {
+    font-size: 20px;
+}
+.name img{
+    width: 20px;
+    height:20px ;
+
+}
+.percentage{
+    color:#303b597c;
+    font-size: 15px;
+    
+}
+.percentage span{
+    color: #303b59;
+    font-weight: bold;
+}
+.continue{
+    background-color: #303b59;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 32px;
+}
+
+.continue:focus{
+    background-color:hsl(256, 72%, 46%);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 375px) {
+    .mainContainer {
+        margin: 0;
+        display: grid;
+        grid-template-rows: repeat(2 , 50%);
+        grid-template-columns: 100%;
+    }
+    
+}
